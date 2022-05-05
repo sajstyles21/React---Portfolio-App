@@ -1,4 +1,3 @@
-import { Helmet, HelmetProvider } from "react-helmet-async";
 //Components
 import Head from "./components/Head";
 import About from "./components/About";

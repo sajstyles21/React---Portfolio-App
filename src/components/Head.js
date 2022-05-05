@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 //IMAGES
 import coverImage from "../images/cover_bg_3.jpg";
-import userImage from "../images/user-3.jpg";
 import surajPic from "../images/surajsharma.jpg";
 
 export default function Head() {
@@ -36,12 +35,20 @@ export default function Head() {
                 <p></p>
                 <ul className="fh5co-social-icons">
                   <li>
-                    <a href="https://twitter.com/SaJsTyLeS" target="_blank">
+                    <a
+                      href="https://twitter.com/SaJsTyLeS"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <i className="icon-twitter2"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.facebook.com/SaJsTyl" target="_blank">
+                    <a
+                      href="https://www.facebook.com/SaJsTyl"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
                       <i className="icon-facebook2"></i>
                     </a>
                   </li>
@@ -49,6 +56,7 @@ export default function Head() {
                     <a
                       href="https://www.linkedin.com/in/sajstyles/"
                       target="_blank"
+                      rel="noreferrer"
                     >
                       <i className="icon-linkedin2"></i>
                     </a>

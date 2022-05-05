@@ -1,5 +1,4 @@
 import React from "react";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 //IMAGES
 import coverImage from "../images/cover_bg_3.jpg";
 import surajPic from "../images/surajsharma.jpg";

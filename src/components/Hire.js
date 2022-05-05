@@ -12,7 +12,10 @@ export default function Hire() {
               reprehenderit. Eos cumque dicta adipisci architecto culpa amet.
             </p>
             <p>
-              <a href="#" className="btn btn-default btn-lg">
+              <a
+                href="https://www.google.com/"
+                className="btn btn-default btn-lg"
+              >
                 Contact Us
               </a>
             </p>

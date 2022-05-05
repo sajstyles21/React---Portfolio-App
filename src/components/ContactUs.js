@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import validator from "validator";
-import SweetAlert from "react-bootstrap-sweetalert";
 import swal from "sweetalert";
 import coverImage from "../images/cover_bg_1.jpg";
 export default function ContactUs() {

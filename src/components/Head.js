@@ -29,7 +29,7 @@ export default function Head() {
                   <span>Suraj Sharma</span>
                 </h1>
                 <h3>
-                  <span>Software Engineer</span>
+                  <span>Sr. Software Engineer</span>
                 </h3>
                 <p></p>
                 <ul className="fh5co-social-icons">

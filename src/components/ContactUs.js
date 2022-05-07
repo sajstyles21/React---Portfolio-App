@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import validator from "validator";
+import { send } from "emailjs-com";
 import swal from "sweetalert";
 import coverImage from "../images/cover_bg_1.jpg";
 export default function ContactUs() {
@@ -8,6 +9,14 @@ export default function ContactUs() {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   const [formSubmit, setFormSubmitMessage] = useState(false);
+  const [toSend, setToSend] = useState({
+    name: "",
+    to_name: "Suraj",
+    email: "",
+    subject: "",
+    message: "",
+    reply_to: "sharmasuraj41@gmail.com",
+  });
 
   const nameRef = useRef();
   const emailRef = useRef();
@@ -39,7 +48,15 @@ export default function ContactUs() {
       sweetAlertPopUp("Please enter message", messageRef, "error");
       return false;
     } else {
-      sweetAlertPopUp("Thank you for contacting us", "", "success");
+      send("service_1fh41av", "template_03ji4te", toSend, "uNfPJIbgHHahWrxsr")
+        .then((response) => {
+          if (response.status === 200) {
+            sweetAlertPopUp("Thank you for contacting us", "", "success");
+          }
+        })
+        .catch((err) => {
+          sweetAlertPopUp(err, "", "error");
+        });
     }
   };
 
@@ -80,10 +97,12 @@ export default function ContactUs() {
                 type="text"
                 id="fname"
                 value={name}
+                name="name"
                 ref={nameRef}
                 autoComplete="off"
                 onChange={(e) => {
                   setName(e.target.value);
+                  setToSend({ ...toSend, [e.target.name]: e.target.value });
                 }}
                 className="form-control"
                 placeholder="Your name"
@@ -96,10 +115,12 @@ export default function ContactUs() {
                 type="text"
                 id="email"
                 ref={emailRef}
+                name="email"
                 value={email}
                 autoComplete="off"
                 onChange={(e) => {
                   setEmail(e.target.value);
+                  setToSend({ ...toSend, [e.target.name]: e.target.value });
                 }}
                 className="form-control"
                 placeholder="Your email address"
@@ -114,9 +135,11 @@ export default function ContactUs() {
                 id="subject"
                 ref={subjectRef}
                 value={subject}
+                name="subject"
                 autoComplete="off"
                 onChange={(e) => {
                   setSubject(e.target.value);
+                  setToSend({ ...toSend, [e.target.name]: e.target.value });
                 }}
                 className="form-control"
                 placeholder="Your subject"
@@ -135,6 +158,7 @@ export default function ContactUs() {
                 defaultValue={message}
                 onChange={(e) => {
                   setMessage(e.target.value);
+                  setToSend({ ...toSend, [e.target.name]: e.target.value });
                 }}
                 className="form-control"
                 placeholder="Your message"

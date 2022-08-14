@@ -35,37 +35,40 @@ export default function Resume() {
                     <p></p>
                     <ul style={{ padding: "0px" }}>
                       <ol style={olStyle}>
-                        1.Develop, record and maintain cutting edge web-based
-                        applications and REST APIs on portal plus premium
-                        service platforms.
+                        1. Develop, record and maintain cutting edge web apps
+                        using PHP/Laravel on portal plus premium service
+                        platforms.
                       </ol>
                       <ol style={olStyle}>
-                        2. Prepare and maintain all applications utilizing
+                        2. Experience in creating SPAs using React JS and Redux.
+                      </ol>
+                      <ol style={olStyle}>
+                        3. Prepare and maintain all applications utilizing
                         standard development tools.
                       </ol>
                       <ol style={olStyle}>
-                        3. Maintain as well as edit current websites and write
+                        4. Maintain as well as edit current websites and write
                         semantic markup.
                       </ol>
                       <ol style={olStyle}>
-                        4. Troubleshoot, test and maintain the core product
+                        5. Troubleshoot, test and maintain the core product
                         software and databases to ensure strong optimization and
                         functionality.
                       </ol>
                       <ol style={olStyle}>
-                        5. Identify bugs and fix them, troubleshoot and solve
+                        6. Identify bugs and fix them, troubleshoot and solve
                         any related problems.
                       </ol>
                       <ol style={olStyle}>
-                        6. Develop, program, test and debug all web-based
+                        7. Develop, program, test and debug all web-based
                         applications.
                       </ol>
                       <ol style={olStyle}>
-                        7. Contribute to all phases of the development
+                        8. Contribute to all phases of the development
                         lifecycle.
                       </ol>
                       <ol style={olStyle}>
-                        8. Create the right code structures to resolve specific
+                        9. Create the right code structures to resolve specific
                         tasks.
                       </ol>
                     </ul>
@@ -116,8 +119,8 @@ export default function Resume() {
                     <p></p>
                     <ul style={{ padding: "0px" }}>
                       <ol style={olStyle}>
-                        1. Develop Ecommerce / Web Applications using PHP /
-                        MySQL, WordPress, Joomla.
+                        1.Develop Ecommerce / Web Applications using PHP, MySQL,
+                        and Joomla.
                       </ol>
                       <ol style={olStyle}>
                         2. Participate in a team-oriented environment to develop
@@ -128,8 +131,8 @@ export default function Resume() {
                         troubleshooting bugs and adding new features.
                       </ol>
                       <ol style={olStyle}>
-                        4. Identify bugs and fix them, troubleshoot and solve
-                        any related problems.
+                        4.Identify bugs and fix them, troubleshoot and solve any
+                        related problems.
                       </ol>
                       <ol style={olStyle}>
                         5. Create, design, test and apply web-based

@@ -14,7 +14,7 @@ export default function Skills() {
             <div className="progress-wrap">
               <h3>
                 <span className="name-left">HTML</span>
-                <span className="value-right">80%</span>
+                <span className="value-right">90%</span>
               </h3>
               <div className="progress">
                 <div
@@ -112,7 +112,7 @@ export default function Skills() {
             <div className="progress-wrap">
               <h3>
                 <span className="name-left">ReactJs</span>
-                <span className="value-right">70%</span>
+                <span className="value-right">90%</span>
               </h3>
               <div className="progress">
                 <div

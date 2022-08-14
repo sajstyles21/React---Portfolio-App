@@ -10,7 +10,9 @@ export default function Hire() {
             <p></p>
             <p>
               <a
-                href="https://www.google.com/"
+                href="https://www.linkedin.com/in/sajstyles/"
+                target="_blank"
+                rel="noreferrer"
                 className="btn btn-default btn-lg"
               >
                 Contact Us

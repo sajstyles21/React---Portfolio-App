@@ -128,7 +128,7 @@ export default function Skills() {
             <div className="progress-wrap">
               <h3>
                 <span className="name-left">jQuery</span>
-                <span className="value-right">80%</span>
+                <span className="value-right">85%</span>
               </h3>
               <div className="progress">
                 <div

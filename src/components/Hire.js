@@ -12,7 +12,7 @@ export default function Hire() {
               <a
                 href="https://www.linkedin.com/in/sajstyles/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="btn btn-default btn-lg"
               >
                 Contact Us

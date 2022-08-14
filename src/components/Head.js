@@ -37,7 +37,7 @@ export default function Head() {
                     <a
                       href="https://twitter.com/SaJsTyLeS"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <i className="icon-twitter2"></i>
                     </a>
@@ -46,7 +46,7 @@ export default function Head() {
                     <a
                       href="https://www.facebook.com/SaJsTyl"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <i className="icon-facebook2"></i>
                     </a>
@@ -55,7 +55,7 @@ export default function Head() {
                     <a
                       href="https://www.linkedin.com/in/sajstyles/"
                       target="_blank"
-                      rel="noreferrer"
+                      rel="noopener noreferrer"
                     >
                       <i className="icon-linkedin2"></i>
                     </a>

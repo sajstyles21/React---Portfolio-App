@@ -76,29 +76,15 @@ export default function Resume() {
                   </div>
                 </div>
               </li>
-              <li className="animate-box timeline-unverted">
-                <div className="timeline-badge">
-                  <i className="icon-suitcase"></i>
-                </div>
-                <div className="timeline-panel">
-                  <div className="timeline-heading">
-                    <h3 className="timeline-title">Software Developer</h3>
-                    <span className="company">
-                      AADH Datamatics Pvt Ltd - 2018 - 2019
-                    </span>
-                  </div>
-                  <div className="timeline-body"></div>
-                </div>
-              </li>
               <li className="timeline-inverted animate-box">
                 <div className="timeline-badge">
                   <i className="icon-suitcase"></i>
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h3 className="timeline-title">Web Developer</h3>
+                    <h3 className="timeline-title">Sr. Web Developer</h3>
                     <span className="company">
-                      Soft Radix Technologies Pvt Ltd - 2016 - 2018
+                      Soft Radix Technologies Pvt Ltd - 2017 - 2019
                     </span>
                   </div>
                   <div className="timeline-body"></div>
@@ -112,7 +98,7 @@ export default function Resume() {
                   <div className="timeline-heading">
                     <h3 className="timeline-title">Web Developer</h3>
                     <span className="company">
-                      CQLsys Technologies Pvt Ltd - 2014 - 2016
+                      A K Bansal & Co. - 2014 - 2017
                     </span>
                   </div>
                   <div className="timeline-body">
